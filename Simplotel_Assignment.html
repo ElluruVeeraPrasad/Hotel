@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+/* Navbar Style */
+.header {
+  overflow: hidden;
+  background-color: white;
+  padding: 0px 10px;
+  
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bolder; 
+  line-height: 8px;
+  
+}
+
+
+
+
+
+
+
+.header-right {
+  float: center;
+}
+.header-right a{
+  float: right;
+}
+.header img{
+  width: 70px;
+  height: 70px;
+}
+
+@media screen and (max-width: 200px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+  .header-right {
+    float: none;
+  }
+}
+
+
+
+/*Body1*/
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.top-left {
+  position: absolute;
+  overflow: hidden;
+  top: 1150px;
+  left: 50px;
+  box-sizing: border-box;
+  display: block; 
+  background-color: rgb(72,72,72);font-weight: bold;
+  align-content: center;
+  text-align: center;
+  padding: 10px 15px;
+  font-size: 25px;
+  
+}
+
+  
+.card{
+      height: 61px;
+      width: 33.33%;
+      float: left;
+      padding: 0px;
+      overflow: hidden;
+    }
+    .intro{
+      color: black;
+      box-sizing: border-box;
+      height: 100px;
+      margin: 3;
+      display: table;
+      content: "";
+      clear: both; 
+    }
+    p{
+      margin: 25px;
+      font-size: 20px; 
+    }
+    .card:hover p{
+      opacity: 1;
+      visibility: visible;
+    }
+
+
+/*Body2*/
+  .container1{
+      display: flex;
+
+    }
+    .card1{
+      height: 150px;
+      margin: 100px;
+      overflow: hidden;
+      display: block;
+    }
+    .card1 img{
+      height: 200px;
+      width: 500px;
+    }
+    .intro1{
+      height: 200px;
+      width: 370px;
+      padding: 6px;
+      overflow: hidden;
+      box-sizing: border-box;
+      position:absolute;
+      background-color: white;
+      color: black;
+
+    }
+    h2{
+      margin: 20px;
+      font-size: 40px;
+    }
+  }
+</style>
+</head>
+
+<!--BODY-->
+<body>
+<!--Navigation Bar-->
+<div class="header">
+  <a><img src="C:\Users\veera prasad\Desktop\phoenix-logo.png"></a>
+  <div  class="top-left" style="color: white; " >Lorem Ipsum</div>
+  <div class="header-right">
+    <a><img src="D:\Need For Job Filling Process\facebookicon.jpg" style="height:40px; width:40px;"></a>
+    <a><img src="D:\Need For Job Filling Process\whatsappicon.jpg" style="height:40px; width:40px;"></a>
+    <a href="#contact">Contact Us</a>
+    <a href="#testimonial">Testimonial</a>
+    <a href="#restaurant">Restaurant</a>
+    <a href="#food">Food</a>
+    <a href="#order">Order</a>
+    <a href="#home">Home</a>
+    
+      </div>
+</div>
+
+
+<!--Body1-->
+<div class="container">
+  <img src="C:\Users\veera prasad\Desktop\hero-img.jpg" alt="Snow" style="width:100%;">
+  
+  
+  <div class="card">
+
+    <div class="intro" style="background-color: lightgray;padding: 0px; " >
+      <p >
+      Lorem Ipsum is simply dummy text of the printing and typesetting .
+    </p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="intro" style="background-color: lightgray;">
+      <p>
+      Lorem Ipsum is simply dummy text of the printing and typesetting .
+    </p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="intro" style="background-color: lightgray;">
+      <p style="padding-bottom: auto;">
+      Lorem Ipsum is simply dummy text of the printing and typesetting .
+    </p>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<!--Body2-->
+<div class="title1">
+  <h1 style="margin-left: 70px; padding:10px">             Lorem Ipsum</h1>
+</div>
+  <div class="container1">
+    <div class="card1">
+      <img src="C:\Users\veera prasad\Desktop\rooms.jpg" alt="rooms">
+      <div class="intro1" style="text-align: left; overflow: hidden;">
+        <h2 >ROOMS</h2>
+        <p1 >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p1>
+        <br>
+        <br>
+      </div>
+    </div>
+    <div class="card1">
+      <img src="C:\Users\veera prasad\Desktop\dining.jpg" alt="dining">
+      <div class="intro1" style="text-align: center; overflow: hidden">
+        <h2 >DINING</h2>
+        <p1 >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p1>
+        <br>
+        <br>
+        
+
+        <div style="color: white;display: block ;background-color: black; width: 100px ; font-weight: bold; text-align: center; padding:5px 20px; width: 50%;">Learn More</div>
+      
+      </div>
+    </div>
+    <div class="card1">
+      <img src="C:\Users\veera prasad\Desktop\pool.jpg" alt="pool">
+      <div class="intro1" style="text-align: right; overflow: hidden">
+        <h2 >POOLS</h2>
+        <p1 >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p1>
+        <br>
+        <br>
+        
+        <div style="color: white; display: block; background-color: black; width: 100px ; font-weight: bold; text-align: center; padding:5px 20px; width: 50%;" >Learn More</div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
